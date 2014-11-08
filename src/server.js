@@ -11,3 +11,17 @@ _.extend(Voice, {
         });
     }
 });
+
+console.log(Meteor.methods);
+// Meteor.methods({
+//     voiceQuery: function (data) {
+//         try {
+//             return Voice.query(data);
+//         }
+//         catch(err){
+//             if(err.reason)
+//                 throw new Meteor.Error(403, err.reason);
+//             throw new Meteor.Error(403, err.message);
+//         }
+//     }
+// });
