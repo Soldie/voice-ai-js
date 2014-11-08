@@ -7,7 +7,7 @@ _.extend(Voice, {
                 "Authorization": "Bearer " + accessToken,
                 "ocp-apim-subscription-key": subscriptionKey
             },
-            data: { q: "play some hiphop", lang: "en" },
+            data: data,
         });
     }
 });
