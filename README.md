@@ -2,4 +2,4 @@ This is a Meteor package to integrate http://api.ai/ into your Meteor web and mo
 http://api.ai/ enables voice recognition, make your app listen and understand users. 
 
 Cordova Plugin to build iOS and Android app.
-http://plugins.cordova.io/#/package/ai.api.apiaiplugin 
+https://www.npmjs.com/package/cordova-plugin-apiai
